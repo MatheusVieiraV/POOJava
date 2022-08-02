@@ -1,0 +1,21 @@
+mport java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Digite seu nome: ");
+        String nome = s.nextLine();
+
+        int tamanho = nome.length() ;
+
+       if (tamanho > 30 ){
+           System.out.println("Nome longo!");
+
+       } else {
+           System.out.println("Nome curto!");
+
+       }
+
+    }
+
+}
