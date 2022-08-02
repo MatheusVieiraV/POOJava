@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String texto = " Estou aprendendo programação!";
+
+        String textoAlterado = texto.replace("programação", "Programação Orientada a Objetos");
+
+        System.out.println(texto);
+        System.out.println(textoAlterado);
+    }
+}
