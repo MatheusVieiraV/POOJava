@@ -1,0 +1,104 @@
+
+
+        String[][] jogoDaVelha;
+        jogoDaVelha = new String[3][3];
+        jogoDaVelha[0] = new String[]{"O", "X", "O"};
+        jogoDaVelha[1] = new String[]{"X", "X", "O"};
+        jogoDaVelha[2] = new String[]{"O", "O", "X"};
+
+        for (int i = 0; i <jogoDaVelha.length; i++) {
+            System.out.print("Linha " + i + " :");
+            String linha = "";
+            for (int j = 0; j < jogoDaVelha[i].length; j++) {
+                linha += " " + jogoDaVelha[i][j];
+            }
+
+            System.out.print(linha + "\n");
+        }
+            if( (jogoDaVelha[0][0] == "X") && (jogoDaVelha[0][1] == "X") &&  (jogoDaVelha[0][2] == "X")){
+                System.out.println("X venceu!");
+                //Linha 0 : X X X
+                //Linha 1 :
+                //Linha 2 :
+            } else if ((jogoDaVelha[0][0] == "O") && (jogoDaVelha[0][1] == "O") &&  (jogoDaVelha[0][2] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : O O O
+                //Linha 1 :
+                //Linha 2 :
+            }else if ((jogoDaVelha[1][0] == "X") && (jogoDaVelha[1][1] == "X") &&  (jogoDaVelha[1][2] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 :
+                //Linha 1 : X X X
+                //Linha 2 :
+            }else if ((jogoDaVelha[1][0] == "O") && (jogoDaVelha[1][1] == "O") &&  (jogoDaVelha[1][2] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 :
+                //Linha 1 : O O O
+                //Linha 2 :
+            }else if ((jogoDaVelha[2][0] == "X") && (jogoDaVelha[2][1] == "X") &&  (jogoDaVelha[2][2] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 :
+                //Linha 1 :
+                //Linha 2 : X X X
+            }else if ((jogoDaVelha[2][0] == "O") && (jogoDaVelha[2][1] == "O") &&  (jogoDaVelha[2][2] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 :
+                //Linha 1 :
+                //Linha 2 : O O O
+            } else if ((jogoDaVelha[0][0] == "X") && (jogoDaVelha[1][0] == "X") &&  (jogoDaVelha[2][0] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 : X
+                //Linha 1 : X
+                //Linha 2 : X
+            }else if ((jogoDaVelha[0][0] == "O") && (jogoDaVelha[1][0] == "O") &&  (jogoDaVelha[2][0] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : O
+                //Linha 1 : O
+                //Linha 2 : O
+            }else if ((jogoDaVelha[0][1] == "X") && (jogoDaVelha[1][1] == "X") &&  (jogoDaVelha[2][1] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 : - X
+                //Linha 1 : - X
+                //Linha 2 : - X
+            }else if ((jogoDaVelha[0][1] == "O") && (jogoDaVelha[1][1] == "O") &&  (jogoDaVelha[2][1] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : - O
+                //Linha 1 : - O
+                //Linha 2 : - O
+            }else if ((jogoDaVelha[0][2] == "X") && (jogoDaVelha[1][2] == "X") &&  (jogoDaVelha[2][2] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 : - - X
+                //Linha 1 : - - X
+                //Linha 2 : - - X
+            }else if ((jogoDaVelha[0][2] == "O") && (jogoDaVelha[1][2] == "O") &&  (jogoDaVelha[2][2] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : - - O
+                //Linha 1 : - - O
+                //Linha 2 : - - O
+            }else if ((jogoDaVelha[0][0] == "X") && (jogoDaVelha[1][1] == "X") &&  (jogoDaVelha[2][2] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 : X - -
+                //Linha 1 : - X -
+                //Linha 2 : - - X
+            }else if ((jogoDaVelha[0][0] == "O") && (jogoDaVelha[1][1] == "O") &&  (jogoDaVelha[2][2] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : O - -
+                //Linha 1 : - O -
+                //Linha 2 : - - O
+            }else if ((jogoDaVelha[0][2] == "X") && (jogoDaVelha[1][1] == "X") &&  (jogoDaVelha[2][0] == "X")) {
+                System.out.println("X venceu!");
+                //Linha 0 : - - X
+                //Linha 1 : - X -
+                //Linha 2 : X - -
+            }else if ((jogoDaVelha[0][2] == "O") && (jogoDaVelha[1][1] == "O") &&  (jogoDaVelha[2][0] == "O")) {
+                System.out.println("O venceu!");
+                //Linha 0 : - - O
+                //Linha 1 : - O -
+                //Linha 2 : O - -
+            } else {
+
+                System.out.println("Deu velha!");
+            }
+    
+
+    
