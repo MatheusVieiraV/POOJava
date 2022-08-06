@@ -1,0 +1,13 @@
+String[] posicao = new String[10];
+
+        Scanner s = new Scanner(System.in);
+
+        for (int i = 0; i < 10; i++){
+            System.out.println("Digite o conteúdo da posição "+(i+1)+" : ");
+            String conteudo = s.nextLine();
+            posicao[i] = conteudo;
+        }
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("O conteúdo da posição "+(i+1)+" é: "+posicao[i]);
+        }
